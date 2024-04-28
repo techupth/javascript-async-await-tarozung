@@ -33,3 +33,11 @@ let getJohnOrders = () => {
 };
 
 // Start coding here
+function johnProfile(getJohnProfile) {
+  console.log(getJohnProfile);
+}
+function johnOrder(getJohnOrders) {
+  console.log(getJohnOrders);
+}
+getJohnProfile().then(johnProfile);
+getJohnOrders().then(johnOrder);
